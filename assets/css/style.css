@@ -1,0 +1,166 @@
+
+body {
+	background-image: url("../images/background.png");
+}
+
+.standard-text {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: large;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 100%;
+}
+
+.pageWrap {
+    min-height: 100%;
+    margin-bottom: -68px;
+}
+
+
+.top-bar {
+	overflow: auto;
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+}
+
+.top-wrap {
+	overflow: auto;
+	width: 960px;
+	margin: auto;
+}
+
+.topBar__name {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 22px 30px 22px 30px;
+}
+
+.h1--topBar {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: xx-large;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+.topBar__navigation {
+    float: right;
+    margin-top: 35px;
+    color: #dddddd;
+}
+
+.navLink {
+    color: #777777;
+}
+
+.navLink--left {
+    margin: 0px 10px 0px 0px;
+}
+
+.navLink--middle {
+    margin: 0px 10px 0px 10px;
+}
+
+.navLink--right {
+    margin: 0px 0px 0px 10px;
+}
+
+.middleBar {
+    clear: both;
+    overflow: auto;
+}
+
+.middleWrap {
+    overflow: auto;
+    margin: auto;
+    padding: 40px 0px 40px 0px;
+    width: 960px;
+}
+
+.contentBox {
+    border: #dddddd solid 1px;
+    padding: 30px 30px 30px 30px;
+    background-color: #ffffff;
+}
+
+.contentBox__main {
+    float: left;
+    width: 590px;
+    overflow: auto;
+}
+
+#profilePic {
+    width: 200px;
+    float: left;
+    margin: 10px 25px 10px 0px;
+}
+
+p {
+    line-height: 2;
+    margin: 10px 0px 10px 0px;
+}
+
+.contentBox__connect {
+    float: right;
+    width: 210px;
+    overflow: auto;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contactLink--padded {
+    margin-right: 14px;
+}
+
+.contactLink {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+footer, .pageWrap:after {
+    height: 60px;
+}
+
+.pageWrap:after {
+    content: "";
+    display: block;
+}
+
+footer, .pageWrap:after {
+    height: 60px;
+}
+
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    border-top: #4aaaa5 solid 8px;
+    text-align: center;
+    font-size: small;
+    padding-top: 20px;
+}
