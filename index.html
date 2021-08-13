@@ -1,96 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>Maria's Portfolio - Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Maria Soares// Web Developer</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
-<body class="standardText">
-	<div class="pageWrap">
-		<!-- this section is the top navigation bar -->	
-		<section class="topBar">
-			<div class="topWrap">
-				<div class="topBar__name">
-					<h1 class="h1--topBar">Maria Soares</h1>
-				</div>
-				<nav class="topBar__navigation">
-					<a class="navLink navLink--left" href="index.html" >About</a>
-					|
-					<a class="navLink navLink--middle" href="portfolio.html">Portfolio</a>
-					|
-					<a class="navLink navLink--right" href="contact.html">Contact</a>
-				</nav>
-			</div>
-		</section>
+<body>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Maria Soares</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+	  <a href="https://www.linkedin.com/in/maria-soares-26941820b">Resume</a>
+	  </nav>
+  </header>
 
-		<!-- this section is the main content of the page-->
-		<section class="middleBar">
-			<div class="middleWrap">
-				<div class="contentBox contentBox__main">
-					<h1>Porfolio</h1>
-					<hr class="hr--content">
-					<img id="profilePic" src="assets/images/maria.jpg" alt="Maria Soares" title="look at this cool girl">
-					<p>Hello, my name is Maria Soares.  I enjoy lots of things, but mostly listening to music, being in nature, and socializing. I also really like to learn more about computers and programming. I am fascinated by the web and how it continues to grow, and I am excited to make some cool websites for it! </p>
-					<p>I grew up in Mumbai, India, but I moved to Edison, New Jersey and I have lived here ever since. It takes some getting used to, but now that I have learned to love it, it is one of my favorite cities in the world.</p>
-					<div class="portfolioItem__odd">
-						<a href="" target="_blank">
-						<img class="portfolioPic portfolioLink" src="assets/images/download.jpeg" alt="Surf">
-						</a>
-						<div class="portfolioTitle">
-							<h2 class="h2--portfolioTitle">Surf</h2>
-						</div>
-					</div>
-					<div class="portfolioItem__even">
-						<a href="" target="_blank">
-						<img class="portfolioPic portfolioLink" src="assets/images/AdobeStock_289192813.jpeg" alt="Led Wall">
-						</a>
-						<div class="portfolioTitle">
-							<h2 class="h2--portfolioTitle">Led Wall</h2>
-						</div>
-					</div>
-					<div class="portfolioItem__odd">
-						<a href="" target="_blank">
-						<img class="portfolioPic portfolioLink" src="assets/images/mwFzF.png" alt="blank">
-						</a>
-						<div class="portfolioTitle">
-							<h2 class="h2--portfolioTitle">Blank</h2>
-						</div>
-					</div>
-					<div class="portfolioItem__even">
-						<a href="" target="_blank">
-						<img class="portfolioPic portfolioLink" src="assets/images/mwFzF.png" alt="blank">
-						</a>
-						<div class="portfolioTitle">
-							<h2 class="h2--portfolioTitle">Blank</h2>
-						</div>
-					</div>
-					<div class="portfolioItem__odd">
-						<a href="" target="_blank">
-						<img class="portfolioPic portfolioLink" src="assets/images/mwFzF.png" alt="blank">
-						</a>
-						<div class="portfolioTitle">
-							<h2 class="h2--portfolioTitle">Blank</h2>
-						</div>
-					</div>
-				</div>
-				<div class="contentBox contentBox__connect">
-					<h2>Connect with Me</h2>
-					<a href="https://github.com/soaresmaria" target="_blank">
-					<img class="contactLink contactLink--padded" src="assets/images/gitPic.png" alt="github">
-					</a>
-					<a href="https://www.linkedin.com/in/maria-soares-26941820b" target="_blank">
-					<img class="contactLink contactLink--padded" src="assets/images/linkedinPic.png" alt="linked in">
-					</a>
-				</div>
-			</div>
-		</section>
-	</div>
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Cool subtitle here!</h2>
+    </div>
+  </section>
 
-	<footer>
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div class="right-column">
+        <img id="profilePic" src="assets/images/maria.jpg" alt="Maria Soares" title="look at this cool girl">
+        <p>
+			     Hello, my name is Maria Soares.  I enjoy lots of things, but mostly listening to music, being in nature, and socializing. I also really like to learn more about computers and programming. I am fascinated by the web and how it continues to grow, and I am excited to make some cool websites for it! 
+        </p>
+        <p>
+			     I grew up in Mumbai, India, but I moved to Edison, New Jersey and I have lived here ever since. It takes some getting used to, but now that I have learned to love it, it is one of my favorite cities in the world.
+        </p>
+      </div>
+    </section>
 
-	</footer>
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
 
+        <a href="" class="flex-item surf-report">
+          <div>
+            <h3>Project Pokedex</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+        
+        <a href="#" class="flex-item led-wall">
+          <div>
+            <h3>LED Wall</h3>
+            <span>Node/IoT</span>
+          </div>
+        </a>
+        <a href="#" class="flex-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Pastel Puzzels</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+    
+        <a href="#" class="flex-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+15555555555">555.555.5555</a>
+          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
+          <a href="#">GitHub</a>
+          <a href="#">Twitter</a>
+          <a href="#">Spotify</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
